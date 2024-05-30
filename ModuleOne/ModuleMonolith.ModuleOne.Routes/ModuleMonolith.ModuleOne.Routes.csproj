@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\ModuleMonolith.Framework.Routes\ModuleMonolith.Framework.Routes.csproj" />
+    <ProjectReference Include="..\ModuleMonolith.ModuleOne.UseCases\ModuleMonolith.ModuleOne.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
